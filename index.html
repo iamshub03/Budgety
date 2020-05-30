@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Test Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="upperContainer">
+            <div class="monthLabel"> Available budget in June 2020</div>
+            <div class="totalBudget">+ 2,000.00</div>
+            <div class="incomeLabel">Income
+                <div class="incomeLabelValue"> + 4,000.00</div>
+            </div>
+            <div class="expenseLabel">Expense
+                <div class="expenseLabelValue"> - 2,000.00</div>
+            </div>
+        </div>
+        <div class="middleContainer">
+            <div class="typeSelector">
+                <input type="radio" name="radioBTN" value="inc" checked id="radInc">Income </input>
+                <input type="radio" name="radioBTN" value="exp" id="radExp">Expense</input>
+            </div>
+            <div class="descInput">
+                <input class="active" type="text" name="description" placeholder="e.g. Budget" id="descField">
+                <input class="active" type="number" name="val" placeholder="00.00" id="valField">
+                <button class="active" type="submit" name="button" id="subBtn">Enter!</button>
+            </div>
+        </div>
+        <div class="bottomContainer">
+            <div class="incomeList">
+                <div class="incomeListLabel">Income:</div>
+                <ul class="incomeListUL">
+
+                </ul>
+            </div>
+            <div class="expenseList">
+                <div class="expenseListLabel">Expense:</div>
+                <ul class="expenseListUL">
+
+                </ul>
+            </div>
+
+        </div>
+</body>
+<script src="app.js" charset="utf-8"></script>
+
+</html>

@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*-------------------------------------------UPPER CONTAINER*/
+
+.upperContainer {
+    background-image: url('https://www.publicdomainpictures.net/pictures/300000/velka/abstract-wallpaper-15572324177B2.jpg');
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.monthLabel {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.totalBudget {
+    font-size: 2.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: greenyellow;
+}
+
+.incomeLabel,
+.expenseLabel {
+    font-size: 25px;
+    border: 1px solid white;
+    width: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    letter-spacing: 1px;
+}
+
+.incomeLabel {
+    background-color: green;
+    margin-bottom: 10px;
+}
+
+.expenseLabel {
+    background-color: red;
+}
+
+.incomeLabelValue,
+.expenseLabelValue {
+    display: inline-grid;
+    text-align: right;
+    padding-left: 50px;
+    color: white;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------- */
+
+.middleContainer {
+    text-align: center;
+    padding-top: 10px;
+    background-color: #e0e0e0;
+    padding-bottom: 10px;
+}
+
+.typeSelector {
+    font-size: 20px;
+    text-align: center;
+}
+
+.middleContainer input {
+    text-align: center;
+}
+
+.descInput {
+    padding-top: 10px;
+}
+
+.active {
+    border: 1px solid green;
+}
+
+#descField,
+#valField,
+#subBtn {
+    height: 30px;
+    box-shadow: 2px 2px 10px #888888;
+}
+
+#subBtn {
+    background-color: green;
+    width: 80px;
+    color: white;
+    box-shadow: 2px 2px 10px #888888;
+}
+
+
+/* ------------------------------------------------------------------------------------------bottomContainer */
+
+.bottomContainer {
+    display: flex;
+}
+
+.incomeList,
+.expenseList {
+    flex-basis: 50%;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 20px;
+}
+
+.incomeListLabel,
+.expenseListLabel {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.incomeListLabel {
+    color: green;
+}
+
+.expenseListLabel {
+    color: red;
+}
+
+.incomeListUL,
+.expenseListUL {
+    padding-top: 10px;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.incomeListValue,
+.expenseListValue {
+    display: inline-grid;
+    padding-left: 50px;
+    text-align: right;
+}
+
+.incomeListDescription,
+.expenseListDescription {
+    display: inline-grid;
+    text-align: left;
+}
+
+
+/* .expenseListDescription {
+    display: inline-grid;
+    text-align: left;
+} */
+
+.incomeListUL li,
+.expenseListUL li {
+    border-top: 1px solid black;
+    border-radius: 10px;
+    /* border-bottom: 1px solid black; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.incomeListUL li {
+    background-color: #91f3a9;
+}
+
+.expenseListUL li {
+    background-color: #f88888;
+}
+
+.delete {
+    background-color: red;
+    text-align: center;
+    margin-left: 250px;
+    width: 30px;
+}
