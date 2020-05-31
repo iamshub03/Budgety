@@ -104,8 +104,8 @@
 .incomeList,
 .expenseList {
     flex-basis: 50%;
-    padding-left: 85px;
-    padding-right: 85px;
+    padding-left: 45px;
+    padding-right: 45px;
     padding-top: 20px;
 }
 
